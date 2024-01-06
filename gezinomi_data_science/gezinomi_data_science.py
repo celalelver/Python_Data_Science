@@ -16,11 +16,11 @@
 #######################
 # TASK 1: Answer the following questions.
 #######################
-# Question 1: Read the miuul_gezinomi.xlsx file and show general information about the data set.
+# Question 1: Read the gezinomi.xlsx file and show general information about the data set.
 import pandas as pd
 pd.set_option("display.max_rows", None)
 pd.set_option("display.max_columns", None)
-df = pd.read_excel('dataset/miuul_gezinomi.xlsx')
+df = pd.read_excel('dataset/gezinomi.xlsx')
 pd.set_option('display.float_format', lambda x: '%.2f' % x)
 print(df.head())
 print(df.shape)
